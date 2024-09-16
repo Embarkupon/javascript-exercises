@@ -1,0 +1,6 @@
+function that identifies a leapyear
+input paramaters is a single numberical value
+if year is divisible by 4, then it's a leapyear
+if the year is divisible by 100, then it's actually not a leapyear
+if the year is divisble by 400, then it's actually a leapyear after all
+return boolean
