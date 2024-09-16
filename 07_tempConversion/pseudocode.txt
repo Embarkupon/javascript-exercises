@@ -1,12 +1,12 @@
 function convertToCelsius, parameter is a number 
-formula is C = (x * 9/5 + 32)
+formula is F = (x-32) * 5/9
 if number is not a number return 'ERROR'
 calculate farenheit to celsius using formula
 ROUND THE number
 return the rounded number
 
 function convertToFahrenheit, paramater is a number
-formula is F = (x-32) * 5/9
+formula is C = (x * 9/5 + 32)
 if NaN, return ERROR
 calculate celsius to farenheit using formula
 Round the value
