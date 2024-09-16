@@ -5,3 +5,9 @@ consecutive integers using the formula (n/2) * (min + max) where n = max-min+1;
 
 function with paramaters min and max
 return ((max-min+1)/2) * (min+max)
+
+alternatively
+
+increment the minimum value in a loop
+and cumutivaley add it to the sum with every loop
+return the sum
